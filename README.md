@@ -9,5 +9,5 @@
 - Instaed of installing go to try ubutu and install once inside ubuntu
 
 
-_ To mount linux drive automatically on wsl create a scheduler with highest privlidge and folowing command  . browse C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe in program and put follwing in arg
+- To mount linux drive automatically on wsl create a scheduler with highest privlidge and folowing command  . browse C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe in program and put follwing in arg
  `-ExecutionPolicy Bypass -command  "wsl --mount \\.\PHYSICALDRIVE1  --partition 2"` 
